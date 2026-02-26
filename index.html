@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meraki Accessories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-nav section">
+      <div class="container nav-wrap">
+        <div class="logo">MERAKI</div>
+        <nav class="nav-menu">
+          <a href="#" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT US</a>
+          <a href="#products" class="nav-link">PRODUCTS</a>
+          <a href="#contact" class="nav-link">CALL US</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-content">
+          <p class="eyebrow">CLASSY ACCESSORIES MADE JUST FOR YOU</p>
+          <h1>Elevate Your Style</h1>
+          <a href="#products" class="btn btn-primary">VIEW PRODUCTS</a>
+        </div>
+        <div class="container">
+          <div class="hero-image image-placeholder" aria-label="hero image"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about section muted-bg">
+        <div class="container about-grid">
+          <div class="about-image image-placeholder" aria-label="about image"></div>
+          <div class="about-content">
+            <p class="eyebrow">WELCOME TO MERAKI</p>
+            <h2>Unique accessories made just for you</h2>
+            <p>
+              At Meraki, we take pride in offering a diverse collection of carefully crafted
+              women’s accessories designed to suit every taste. Under the creative direction of the
+              talented designer <strong>Maryam Khaled</strong>, we use only the finest materials to
+              bring you unique and distinctive pieces that stand out with elegance.
+            </p>
+            <p>
+              Each accessory is thoughtfully made to reflect your individual style and personality,
+              making it the perfect choice to add a touch of sophistication to your everyday look.
+            </p>
+            <a href="#contact" class="btn btn-outline">GET IN TOUCH</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="products section">
+        <div class="container">
+          <p class="eyebrow centered">ELEGANT WOMEN'S ACCESSORIES</p>
+          <h2 class="centered">Crafted with passion and style</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="card-image image-placeholder"></div>
+              <div class="card-body">
+                <h3>Elegant statement necklace</h3>
+                <p>Perfect for any occasion</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-image image-placeholder"></div>
+              <div class="card-body">
+                <h3>Chic hand-made bag</h3>
+                <p>Stylish and functional</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-image image-placeholder"></div>
+              <div class="card-body">
+                <h3>Hand Harness</h3>
+                <p>Royal Coin Bracelet</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container contact-wrap">
+          <p class="eyebrow centered">CONTACT US</p>
+          <h2 class="centered">We are here to help you</h2>
+          <form class="contact-form">
+            <label for="name">Name *</label>
+            <input id="name" type="text" placeholder="Your name" required />
+
+            <label for="email">Email address *</label>
+            <input id="email" type="email" placeholder="email@website.com" required />
+
+            <label for="phone">Phone number</label>
+            <input id="phone" type="tel" placeholder="+20" />
+
+            <label for="message">Message *</label>
+            <textarea id="message" rows="6" required></textarea>
+
+            <label class="checkbox-row">
+              <input type="checkbox" />
+              I allow this website to store my submission so they can respond to my inquiry.
+            </label>
+
+            <button type="submit" class="btn btn-primary full">SUBMIT</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
